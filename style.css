@@ -1,0 +1,103 @@
+/* css file -------------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4c71a8, #407842);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #4CAF50;
+    text-align: center;
+    width: 450px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Input Box */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #4CAF50;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+/* Buttons */
+.edit, .delete {
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.edit {
+    background: #ffc107;
+    color: white;
+}
+
+.delete {
+    background: #ff3d3d;
+    color: white;
+}
+
+.edit:hover {
+    background: #e0a800;
+}
+
+.delete:hover {
+    background: #d32f2f;
+}
